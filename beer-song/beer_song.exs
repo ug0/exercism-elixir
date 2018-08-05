@@ -22,8 +22,6 @@ defmodule BeerSong do
     |> Enum.join("\n")
   end
 
-  defp concat(a, b), do: a <> b
-
   defp beer(-1), do: "#{@total} bottles of beer"
   defp beer(0), do: "no more bottles of beer"
   defp beer(1), do: "1 bottle of beer"
